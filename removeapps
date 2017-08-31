@@ -1,0 +1,11 @@
+echo 
+echo ----------- Remove Apps by iKilledAppl3 ------------
+echo ----------- Version 1.0_ALPHA_BETA_WHOCARES ------------
+echo 
+echo ---- The current person logged on to this Machine is $USER --------
+echo 
+echo ---- Make sure $USER is an admin and knows the root password!
+echo
+
+sudo  mkdir "/users/$USER/Desktop/Backup Applications" && sudo mv /Applications/iBooks.app "/users/$USER/Desktop/Backup Applications/" && sudo mv /Applications/Chess.app "/users/$USER/Desktop/Backup Applications/" && sudo mv "/Applications/DVD Player.app" "/users/$USER/Desktop/Backup Applications/" && sudo mv /Applications/Dashboard.app "/users/$USER/Desktop/Backup Applications/" && sudo mv "/Applications/Image Capture.app" "/users/$USER/Desktop/Backup Applications/" && killall Terminal
+
