@@ -16,7 +16,6 @@ Respect all the license states so on and so forth!
 # Donate!
 What's the best thing you can do to help me out?
 Simple! DONATE!
-Donating helps me continue making tweaks and showing me that people actually care donate as much as you can!
 Donate here: http://is.gd/donate2ToxicAppl3Inc
 
 # The tweet that inspired it :P
