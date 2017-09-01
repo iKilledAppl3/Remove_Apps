@@ -11,7 +11,7 @@
 # Things to Do!
 - Add the abilty for users to choose what apps they want to delete, make a backup of, or move out of the /Applications/ directory.
 
-# Licensed under the MIT Liscese!
+# Licensed under the MIT License!
 Respect all the license states so on and so forth!
 
 # Donate!
