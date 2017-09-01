@@ -15,15 +15,9 @@
 Respect all the license states so on and so forth!
 
 # Donate!
-<<<<<<< HEAD
 - What's the best thing you can do to help me out?
 - Simple! DONATE!
 - Donate here: http://is.gd/donate2ToxicAppl3Inc
-=======
-What's the best thing you can do to help me out?
-Simple! DONATE!
-Donate here: http://is.gd/donate2ToxicAppl3Inc
->>>>>>> origin/master
 
 # The tweet that inspired it :P
 Twitter Status: https://twitter.com/mem_alloc/status/903078876313739264
