@@ -1,6 +1,7 @@
 # Remove System Apps
-This is a macOS bash script I made just for the sake of it (right now it doesn't remove system apps it just moves them to the desktop) the user decides on what they want to do.
-I made this because I saw a tweet from @mem_alloc on Twitter who had said he wanted to remove those apps (I don't really recommend removing them but hey...)
+- This is a macOS bash script I made just for the sake of it. 
+- This removes apps, backups apps to the desktop, or moves the apps defined by the script to a safe place.
+- I made this because I saw a tweet from @mem_alloc on Twitter who had said he wanted to remove those apps (I don't really recommend removing them but hey...)
 
 # How to use?
 - Simple! Download or Clone to Desktop and open terminal then chmod +x removeapps (if needed).
@@ -8,15 +9,21 @@ I made this because I saw a tweet from @mem_alloc on Twitter who had said he wan
 - Need help contact me on Twitter @iKilledAppl3.
 
 # Things to Do!
-- Add the abilty for users to choose what to do (i.e. move apps, delete apps, or copy and make a backup then remove).
+- Add the abilty for users to choose what apps they want to delete, make a backup of, or move out of the /Applications/ directory.
 
-# Licensed under the MIT License Liscese!
+# Licensed under the MIT Liscese!
 Respect all the license states so on and so forth!
 
 # Donate!
+<<<<<<< HEAD
+- What's the best thing you can do to help me out?
+- Simple! DONATE!
+- Donate here: http://is.gd/donate2ToxicAppl3Inc
+=======
 What's the best thing you can do to help me out?
 Simple! DONATE!
 Donate here: http://is.gd/donate2ToxicAppl3Inc
+>>>>>>> origin/master
 
 # The tweet that inspired it :P
-Watch it here: https://twitter.com/mem_alloc/status/903078876313739264
+Twitter Status: https://twitter.com/mem_alloc/status/903078876313739264

@@ -4,8 +4,48 @@ echo ----------- Version 1.0_ALPHA_BETA_WHOCARES ------------
 echo 
 echo ---- The current person logged on to this Machine is $USER --------
 echo 
-echo ---- Make sure $USER is an admin and knows the root password!
+echo ---- Make sure $USER is an admin and knows the root password! ------
 echo
-
-sudo  mkdir "/users/$USER/Desktop/Backup Applications" && sudo mv /Applications/iBooks.app "/users/$USER/Desktop/Backup Applications/" && sudo mv /Applications/Chess.app "/users/$USER/Desktop/Backup Applications/" && sudo mv "/Applications/DVD Player.app" "/users/$USER/Desktop/Backup Applications/" && sudo mv /Applications/Dashboard.app "/users/$USER/Desktop/Backup Applications/" && sudo mv "/Applications/Image Capture.app" "/users/$USER/Desktop/Backup Applications/" && killall Terminal
-
+echo "------ For now we only support moving, copying, or deleting the defined app in the script This includes iBooks, Chess, DVD Player, Image Capture, and Dashboard"
+echo
+read -p " Move apps? If you select No it will move on to another option. Y/n?" answer
+while true
+do
+	case $answer in
+	[yY]* ) echo ">>Moving apps to safe place..."
+	sudo  mkdir "/users/$USER/Desktop/Backup Applications" && sudo mv /Applications/iBooks.app "/users/$USER/Desktop/Backup Applications/" && sudo mv /Applications/Chess.app "/users/$USER/Desktop/Backup Applications/" && sudo mv "/Applications/DVD Player.app" "/users/$USER/Desktop/Backup Applications/" && sudo mv /Applications/Dashboard.app "/users/$USER/Desktop/Backup Applications/" && sudo mv "/Applications/Image Capture.app" "/users/$USER/Desktop/Backup Applications/"
+				break;;
+		* )		break;;
+	esac
+done
+echo
+echo "Done"
+echo
+echo
+read -p " Delete apps? If you select No it will move on to another option. Y/n?" answer
+while true
+do
+	case $answer in
+	[yY]* ) echo ">>Deleting apps! Make sure you made a backup!..."
+	sudo rm -rf  /Applications/iBooks.app && sudo rm -rf /Applications/Chess.app && sudo rm -rf  "/Applications/DVD Player.app"  && sudo rm -rf   /Applications/Dashboard.app && sudo rm -rf  "/Applications/Image Capture.app"
+				break;;
+		* )		break;;
+	esac
+done
+echo
+echo "Done"
+echo
+echo
+read -p "Make a backup of the apps? Y/n?" answer
+while true
+do
+	case $answer in
+	[yY]* ) echo ">>Creating a backup!.. This may take a minute or so..."
+	sudo mkdir "/users/$USER/Desktop/Backup Applications" && sudo cp -R /Applications/iBooks.app "/users/$USER/Desktop/Backup Applications/" && sudo cp -R /Applications/Chess.app "/users/$USER/Desktop/Backup Applications/" && sudo cp -R "/Applications/DVD Player.app" "/users/$USER/Desktop/Backup Applications/" && sudo cp -R /Applications/Dashboard.app "/users/$USER/Desktop/Backup Applications/" && sudo cp -R "/Applications/Image Capture.app" "/users/$USER/Desktop/Backup Applications/" 
+				break;;
+		* )		break;;
+	esac
+done
+echo
+echo "Done"
+echo "Goodbye! Now, Exiting..."
